@@ -36,7 +36,7 @@ module.exports = {
         browserName : 'chrome',
         'goog:chromeOptions' : {
           args: [
-            //'--no-sandbox',
+            '--no-sandbox',
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
             //'--headless'
