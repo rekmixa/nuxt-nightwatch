@@ -36,8 +36,7 @@ module.exports = {
         browserName : 'chrome',
         'goog:chromeOptions' : {
           args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
+            // '--no-sandbox',
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
             //'--headless'
@@ -50,6 +49,8 @@ module.exports = {
         port: 9515,
         server_path: chromePath,
         cli_args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
           // '--verbose'
         ]
       }
