@@ -1,6 +1,6 @@
 <template>
   <div>
-    Nuxt JS Kit
+    Hello, World!
   </div>
 </template>
 
