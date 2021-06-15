@@ -26,7 +26,7 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        server_path: (Services.chromedriver ? Services.chromedriver.path : '')
+        server_path: process.env.CHROME_PATH
       }
     },
 
@@ -46,7 +46,7 @@ module.exports = {
       webdriver: {
         start_process: true,
         port: 9515,
-        server_path: (Services.chromedriver ? Services.chromedriver.path : ''),
+        server_path: process.env.CHROME_PATH,
         cli_args: [
           // '--verbose'
         ]
