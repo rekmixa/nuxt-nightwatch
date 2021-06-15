@@ -91,3 +91,4 @@ sw.*
 
 docker-compose.override.yml
 tests_output
+screens
