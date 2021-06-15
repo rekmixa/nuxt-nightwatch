@@ -18,6 +18,14 @@ ChromeDriver
 yarn add chromedriver --dev
 ```
 
+### package.json
+
+Add to `scripts`:
+
+```json
+"nightwatch": "nightwatch"
+```
+
 ## Run test
 
 ```bash
