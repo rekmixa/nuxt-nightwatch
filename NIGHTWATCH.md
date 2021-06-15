@@ -17,9 +17,3 @@ ChromeDriver
 ```bash
 yarn add chromedriver --dev
 ```
-
-### Selenium Server  
-
-```bash
-yarn add selenium-server --dev
-```
