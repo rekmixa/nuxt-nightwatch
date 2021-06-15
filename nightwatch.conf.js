@@ -1,3 +1,4 @@
+const chromePath = '/usr/bin/google-chrome-unstable'
 const Services = {}
 loadServices()
 
@@ -26,7 +27,7 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        server_path: process.env.CHROME_PATH
+        server_path: chromePath
       }
     },
 
@@ -46,7 +47,7 @@ module.exports = {
       webdriver: {
         start_process: true,
         port: 9515,
-        server_path: process.env.CHROME_PATH,
+        server_path: chromePath,
         cli_args: [
           // '--verbose'
         ]
