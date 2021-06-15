@@ -37,6 +37,7 @@ module.exports = {
         'goog:chromeOptions' : {
           args: [
             '--no-sandbox',
+            '--disable-setuid-sandbox',
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
             //'--headless'
