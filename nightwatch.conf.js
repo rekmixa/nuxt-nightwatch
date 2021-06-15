@@ -51,6 +51,7 @@ module.exports = {
         cli_args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
+          '--headless',
           // '--verbose'
         ]
       }
