@@ -21,5 +21,5 @@ yarn add chromedriver --dev
 ## Run test
 
 ```bash
-yarn nightwatch tests/e2e/hello-world.js --env chrome
+yarn nightwatch node_modules/nightwatch/examples/tests/ecosia.js --env chrome
 ```
